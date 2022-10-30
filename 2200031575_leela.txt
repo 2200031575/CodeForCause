@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float r,d,pi=3.14,x;
+	printf("enter d value");
+	scanf("%f",&d);
+	r=pi/180*d;
+	x=tan(r);
+	printf("%f",x);  
+	return 0;
+}
